@@ -1,0 +1,34 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header #navbar {   
+    position: fixed;
+    width: 100vw;
+    background: rgba(26, 94, 110, 0.8);
+}
+
+#header nav ul li {
+    list-style: none;
+    padding: 2% 3% 0;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+#welcome-section {
+    background-color: bisque;
+    height: 100vh;
+}
