@@ -29,6 +29,55 @@ nav ul li a {
 }
 
 #welcome-section {
-    background-color: bisque;
-    height: 100vh;
+    background: url("images/woman-1807533_1280.jpg") center center fixed;
+    background-size: cover;
+    height: 45vh;
+    padding-top: 55vh;
+}
+
+#welcome-section h1 {
+    color: white;
+    background: rgba(26, 94, 110, 0.8);
+    padding: 2%;
+    margin: 1%;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#projects {
+    text-align: center;
+    margin: 2% 0;
+}
+
+h2 {
+    color: rgb(26, 94, 110);
+    margin: 3% 0 2%;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 2%;
+}
+
+.justifyLeft li {
+    text-align: left;
+    list-style: disc;
+    margin-left: 4%;
+}
+
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border-radius: 50%; */
+}
+
+article img {
+    border-radius: 5%;
+}
+footer {
+    background: rgba(26, 94, 110, 0.8);
+    color: white;
+    text-align: center;
+    padding: 2%;
 }
