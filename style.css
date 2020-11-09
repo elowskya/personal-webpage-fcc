@@ -31,8 +31,8 @@ nav ul li a {
 #welcome-section {
     background: url("images/woman-1807533_1280.jpg") center center fixed;
     background-size: cover;
-    height: 45vh;
-    padding-top: 55vh;
+    height: 30vh;
+    padding-top: 70vh;
 }
 
 #welcome-section h1 {
@@ -42,6 +42,7 @@ nav ul li a {
     margin: 1%;
     width: fit-content;
     border-radius: 5px;
+    font-size: 200%;
 }
 
 #projects {
@@ -53,23 +54,46 @@ h2 {
     color: rgb(26, 94, 110);
     margin: 3% 0 2%;
     text-align: center;
+    font-size: 250%;
 }
 
 p {
     margin-bottom: 2%;
 }
 
+p, li {
+    font-size: 125%;
+}
+
 .justifyLeft li {
     text-align: left;
     list-style: disc;
-    margin-left: 4%;
+    margin-left: 2vw;
+    margin-bottom: 2%;
+    line-height: 152%;
 }
 
+
+.floatRight {
+    padding-top: 1%;
+    margin-top: 1%;
+    float: right;
+    width: 48vw;
+    background: linear-gradient(to bottom right, peru 20%, burlywood 20%, white);
+    /* background: repeating-linear-gradient(-45deg, peru 25px, white 5px, burlywood 80%); */
+}
+
+.floatLeft {
+    padding-top: 1%;
+    margin-top: 1%;
+    float: left;
+    width: 48vw;
+    background: linear-gradient(to bottom right, peru 20%, burlywood 20%, white);
+}
 .project-tile {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* border-radius: 50%; */
 }
 
 article img {
